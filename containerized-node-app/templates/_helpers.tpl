@@ -48,6 +48,12 @@ Selector labels
 {{- define "containerized-node-app.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "containerized-node-app.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+app: "containerized-node-app"
+app.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/component: api
+app.kubernetes.io/part-of: applications
+app.kubernetes.io/created-by: helm
+kubernetes.io/description: An app that prints hello world at it's home endpoint
 {{- end }}
 
 {{/*
