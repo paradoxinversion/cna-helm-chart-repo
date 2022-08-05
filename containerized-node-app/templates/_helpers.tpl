@@ -57,6 +57,14 @@ kubernetes.io/description: An app that prints hello world at it's home endpoint
 {{- end }}
 
 {{/*
+Some Annotations
+*/}}
+{{- define "containerized-node-app.annotations" -}}
+fullName: {{ include "containerized-node-app.fullName" . }}
+lastCreated: {{ now | date "2006-01-02"}}
+{{- end }}
+
+{{/*
 Create the name of the service account to use
 */}}
 {{- define "containerized-node-app.serviceAccountName" -}}
