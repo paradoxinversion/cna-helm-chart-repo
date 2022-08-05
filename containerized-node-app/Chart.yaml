@@ -12,6 +12,4 @@ type: application
 kubeVersion: ">= 1.22.6"
 version: 0.1.0
 annotations:
-  foo-helm-annotation:
-  - bar
-  - baz
+  foo-helm-annotation: bar-chart
