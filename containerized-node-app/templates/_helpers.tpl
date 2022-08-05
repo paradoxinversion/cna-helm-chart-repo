@@ -61,7 +61,6 @@ Some Annotations
 */}}
 {{- define "containerized-node-app.annotations" -}}
 fullName: {{ include "containerized-node-app.fullName" . }}
-lastCreated: {{ now | date "2006-01-02"}}
 {{- end }}
 
 {{/*
