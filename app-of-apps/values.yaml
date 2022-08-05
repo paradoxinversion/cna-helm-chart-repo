@@ -5,3 +5,7 @@
 spec:
   destination:
     server: https://kubernetes.default.svc
+  source:
+    path: containerized-node-app
+    repoURL: https://github.com/paradoxinversion/cna-helm-chart-repo
+    targetRevision: 0.0.1
