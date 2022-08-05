@@ -3,20 +3,20 @@ entries:
   app-of-apps:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-08-05T16:24:18.0808193-07:00"
+    created: "2022-08-05T16:33:05.5289547-07:00"
     description: A Helm chart for Kubernetes
     digest: e30a736c4b293bb3ec6a54e325c5f94de26142b9091ca203af6885b927841785
     name: app-of-apps
     type: application
     urls:
-    - https://paradoxinversion.github.io/cna-helm-chart-repo/app-of-apps-0.0.3.tgz
+    - https://paradoxinversion.github.io/cna-helm-chart-repo/charts/app-of-apps-0.0.3.tgz
     version: 0.0.3
   containerized-node-app:
   - annotations:
       foo-helm-annotation: bar-chart
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-08-05T16:24:18.081352-07:00"
+    created: "2022-08-05T16:33:05.52949-07:00"
     description: A Helm Chart for Jedai Saboteur's Containerized Node App for learning
       k8s
     digest: f3b4fc869d57bd4b1e17a94837a8cb7cecc706480f0c8147ddad364eefb557c4
@@ -30,6 +30,6 @@ entries:
     - https://github.com/paradoxinversion/containerized-node-app
     type: application
     urls:
-    - https://paradoxinversion.github.io/cna-helm-chart-repo/containerized-node-app-0.1.0.tgz
+    - https://paradoxinversion.github.io/cna-helm-chart-repo/charts/containerized-node-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-05T16:24:18.0797461-07:00"
+generated: "2022-08-05T16:33:05.5278786-07:00"
