@@ -10,6 +10,6 @@ sources:
   - https://github.com/paradoxinversion/containerized-node-app
 type: application
 kubeVersion: ">= 1.22.6"
-version: 0.1.0
+version: 0.1.1
 annotations:
   foo-helm-annotation: bar-chart
